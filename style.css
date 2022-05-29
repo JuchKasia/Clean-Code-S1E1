@@ -18,15 +18,16 @@
 }
 
 @media (max-width: 768px) {
-.header { text-align: center;
-}
+    .header { text-align: center;
+    }
 }
 .main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task-label, .task-input-text {
+.task-label,
+.task-input-text {
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -38,10 +39,12 @@
     margin: 0;
     padding: 0px;
 }
-.task-list-item, h3 {
+.task-list-item,
+h3 {
     list-style: none;
 }
-.task-input, .button {
+.task-input,
+.button {
     outline: none;
 }
 .button {
