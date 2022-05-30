@@ -44,7 +44,7 @@
 .title {
     list-style: none;
 }
-.task-input,
+.task-input-text,
 .button {
     outline: none;
 }
@@ -141,11 +141,11 @@
     display: none;
 }
 
-.task-list .task-list-item.task-list-item-edit .task-input-text {
+.task-list .task-list-item-edit .task-input-text {
     display: inline-block;
     width: 224px;
 }
 
-.task-list .task-list-item.task-list-item-edit .task-label {
+.task-list .task-list-item-edit .task-label {
     display: none;
 }
