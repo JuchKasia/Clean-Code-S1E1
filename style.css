@@ -9,7 +9,6 @@
     margin: 0 auto;
     display: block;
     text-align: right;
-    
 }
 .header-img {
     width: 100%;
@@ -27,7 +26,8 @@
     display: block;
     width: 500px;
     margin: 0 auto 0;
-} /* */
+    margin-top: 19px;
+}
 .task-label,
 .task-input-text {
     width: 56%;
@@ -89,8 +89,8 @@
 
 /* New Task */
 .new-task {
-    display: block;
-    margin: 0 0 20px;
+    display: flex;
+    margin: 20px 0;
 }
 .new-task .task-input-text {
     width: 318px;
@@ -101,7 +101,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
