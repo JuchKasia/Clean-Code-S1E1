@@ -146,6 +146,6 @@
     width: 224px;
 }
 
-.task-list .task-list-item.edit-mode .task-label {
+.task-list .task-list-item.task-list-item-edit .task-label {
     display: none;
 }
