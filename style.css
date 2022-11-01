@@ -13,7 +13,7 @@
 .header-img {
     width: 100%;
 }
-.header .more-inf {
+.header .header__link {
     font-family: fantasy, cursive;
 }
 
@@ -28,25 +28,25 @@
     margin: 0 auto 0;
     margin-top: 19px;
 }
-.task-label,
-.task-input-text {
+.new-task,
+.new-task__input  {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-.new-task-wrapper {
+.new-task {
     display: flex;
 }
-.task-list {
+.list {
     margin: 0;
     padding: 0px;
 }
-.task-list-item,
-.title {
+li,
+h3 {
     list-style: none;
 }
-.task-input-text,
-.button {
+input,
+button {
     outline: none;
 }
 .button {
